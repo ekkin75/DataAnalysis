@@ -1,0 +1,123 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline 
+
+sns.catplot()
+==================
+1. sns.set_theme(style="ticks") 
+2. sns.catplot(data=titanic_df, x = 'Sex' , y= 'Pclass' , kind = 'bar')
+
+sns.catplot(x ='sumbu x', y ='sumbu y', data = df)
+sns.catplot(x ='sumbu x', y ='sumbu y',
+               hue = 'nama_kolom_tampil_di box', data = df)
+sns.catplot(x ='sumbu x', y ='sumbu y',
+               kind = 'count', data = df)
+   ***kind bisa 'box' ,'bar' , 'violin', 'strip' , 'count'
+
+--------------------------------
+Histograms are generally used to represent 
+the frequency distribution for a numeric array, split into small equal-sized bins
+
+Histogram dengan pandas
+df.hist(); (by default bins nya pakai = 10)
+df.hist(bins = 3);
+# Histogram with custom bins
+df.hist(bins=[20, 35, 50, 80]);
+titanic_df['Age'].hist(bins=70)
+bins=lebar histogramnya(interval)
+
+cara lain buat histogram
+1. By using the kind parameter
+	df.plot(kind='hist');
+2. By using hist method of plot function
+	df.plot.hist();
+=======================================================
+Pandas DataFrame: dropna() function
+The dropna() function is used to remove missing values.
+DataFrame.dropna(self, axis=0, how='any', thresh=None, subset=None, inplace=False)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
